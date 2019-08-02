@@ -2,7 +2,7 @@ import boolean2
 from boolean2 import util
 import json
 
-text = file('rules_reduced.booleannet').read()
+text = file('rules_reduced/rules_reduced.booleannet').read()
 repeat = 4500
 steps = 50
 print len(text)
